@@ -35,18 +35,6 @@ static void *aligned_malloc(size_t size)
     return ptr;
 }
 
-// Function to check if a diagonal sum equals the target sum
-/*
-static int check_diagonal_sum(grid *g, int row, int col, int length, unsigned long target_sum)
-{
-    unsigned long sum = 0;
-    for (int i = 0; i < length; i++)
-    {
-        sum += g->p[row + i][col + i];
-    }
-    return sum == target_sum;
-}
-*/
 
 // Process a block of the grid with optimized memory access
 static void process_block(grid *input, grid *output, int start_i, int end_i,
