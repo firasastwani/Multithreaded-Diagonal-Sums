@@ -10,6 +10,10 @@ Compilation and Running Instructions:
    - Makefile
    - input files (in1.txt, in2.txt, etc.)
 
+
+Generates new random input file
+python generate_input.py 5 3 inputFiles/random_input.txt
+
 2. To compile the program:
    make
 
